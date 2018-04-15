@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js test --watchAll
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js test -u
 
 PATH: 
   C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Users\lklei\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Users\lklei\AppData\Roaming\npm;C:\Users\lklei\AppData\Local\Yarn\bin;C:\Program Files\Heroku\bin
@@ -43,6 +43,7 @@ npm manifest:
       "moment": "^2.21.0",
       "node-sass": "^4.7.2",
       "normalize.css": "^7.0.0",
+      "numeral": "^2.0.6",
       "raf": "^3.4.0",
       "react": "^16.2.0",
       "react-addons-shallow-compare": "^15.6.2",
@@ -57,7 +58,6 @@ npm manifest:
       "uuid": "^3.2.1",
       "validator": "8.0.0",
       "webpack": "^3.10.0"
-      
     },
     "devDependencies": {
       "enzyme": "^3.3.0",
@@ -4683,6 +4683,10 @@ Lockfile:
     version "1.0.1"
     resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   
+  numeral@^2.0.6:
+    version "2.0.6"
+    resolved "https://registry.yarnpkg.com/numeral/-/numeral-2.0.6.tgz#4ad080936d443c2561aed9f2197efffe25f4e506"
+  
   nwmatcher@^1.4.3:
     version "1.4.4"
     resolved "https://registry.yarnpkg.com/nwmatcher/-/nwmatcher-1.4.4.tgz#2285631f34a95f0d0395cd900c96ed39b58f346e"
@@ -7226,7 +7230,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: C:\WINDOWS\system32\cmd.exe
-  Arguments: /d /s /c jest --config=jest.config.json --watchAll
+  Arguments: /d /s /c jest --config=jest.config.json -u
   Directory: C:\Users\lklei\Desktop\Development\javascript\react\expensify-app
   Output:
   
